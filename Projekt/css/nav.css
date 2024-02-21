@@ -1,0 +1,18 @@
+nav{
+    overflow:hidden;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    
+}
+li{
+    display:inline;
+    font-size: 40px;
+    padding: 30px;
+}
+#logo {
+    float:left;
+    width: 50px;
+
+
+}
