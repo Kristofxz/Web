@@ -1,19 +1,20 @@
 body{
     margin: 0 ;
-
+    background-color: #ff0000;
 }
-nav{
+main{
+    margin: 0 40px;
+}
+nav {
+    background-color: #ff8001;
     overflow:hidden;
     text-align: center;
-    position: fixed;
     width: 100%;
-    height: inherit;
-    background-color: lightgrey;
     margin: 0px;
-
     padding: 0px;
     border-bottom-style: solid;
     z-index: 1;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -30,7 +31,7 @@ nav a{
 nav a:hover{
     border-top:none;
     border-bottom: none;
-    background-color:grey ;
+    background-color: #d36e00;
     border-left-style: solid;
     border-right-style: solid;
 }

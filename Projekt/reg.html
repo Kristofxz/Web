@@ -2,14 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bejelentkezes</title>
+    <title>Regisztráció</title>
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="icon" href="kepek/logo.avif">
     <style>
-        h1{
-            text-align: center;
-        }
-
         input[type=text] {
             width: 100%;
             padding: 12px 20px;
@@ -57,14 +52,18 @@
             color: rgb(183, 82, 224);
             text-decoration:underline;
         }
-        #bejelentkezes{
-            width: 28%;
+        #regisztracio{
+            width: 50%;
             margin: 0 auto;
             border-radius: 15px;
             box-shadow:5px 10px black;
 
         }
-
+        select {
+            width: calc(100% + 4px);
+            padding: 5px;
+            margin-bottom: 10px;
+        }
 
 
         nav{
@@ -87,13 +86,40 @@
 </nav>
 
 <main>
-    <div id="bejelentkezes">
+    <div id="regisztracio">
         <form action="">
             <label for="email">Email cím</label>
-            <input type="text" id="email" name="email" placeholder="Írja be az emailcímét...">
+            <input type="text" id="email" name="email" placeholder="Írja be az email címét...">
 
             <label for="jelszo">Jelszó</label>
             <input type="text" id="jelszo" name="jelszo" placeholder="Írja be a jelszavát...">
+
+            <label for="jelszo">Jelszó megerősítése</label>
+            <input type="text" id="jelszoMegerosites" name="jelszoMegerosites" placeholder="Írja be a jelszavát megint...">
+
+            <label for="vezeteknev">Vezetéknév</label>
+            <input type="text" id="vezeteknev" name="vezeteknev" placeholder="Írja be a vezetéknevét...">
+
+            <label for="keresztnev">Keresztnév</label>
+            <input type="text" id="keresztnev" name="keresztnev" placeholder="Írja be a keresztnevét...">
+
+            <label for="nem">Nem</label>
+            <br>
+            <select>
+                <option value="">Válassza ki a nemét!</option>
+                <option value="ferfi">Férfi</option>
+                <option value="no">Nő</option>
+            </select>
+            <br>
+            <label for="keresztnev">Irányítószám</label>
+            <input type="text" id="iranyitoszam" name="iranyitoszam" placeholder="Írja be az irányítószámát...">
+
+            label for="keresztnev">Irányítószám</label>
+            <input type="text" id="iranyitoszam" name="iranyitoszam" placeholder="Írja be az irányítószámát...">
+
+
+
+
 
             <p id="elfelejtettJelszo"><a href="jelszoUj.html">Elfelejtette a jelszavát?</a></p>
             <input  type="submit" value="Bejelentkezés">
@@ -101,8 +127,6 @@
     </div>
 
 </main>
-
-
 
 </body>
 </html>
