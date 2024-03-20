@@ -1,4 +1,6 @@
 body{
+    background-image: url("/kepek/hatter.jpg");
+    background-repeat: repeat;
     margin: 0 ;
     background-color: #ff0000;
 }
@@ -46,5 +48,48 @@ li{
 #logo {
     float:left;
     width: 35px;
+}
+footer{
+    background-color: black;
+    color: bisque;
+    position: relative;
+        margin-top: 50px;
+        width: 100%;
+        height: 10rem;
 
+
+}
+/*
+@media (max-width: 800px) {
+    .footerList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerElement {
+        padding: 10px 0;
+    }
+}
+*/
+footer a{
+
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+footer p{
+
+    text-align: center;
+}
+
+.footerList{
+    padding:0;
+    text-align:center;
+    list-style:none;
+    font-size:18px;
+}
+
+.footerElement{
+    padding: 0 15px;
 }
