@@ -1,3 +1,10 @@
+h1{
+    width: 100%;
+}
+#etlap{
+    vertical-align: center;
+    margin: 0 auto;
+}
 /*
 #hatter{
    width: 100%;
@@ -11,7 +18,7 @@
 
 
 #leiras{
-    margin: 0 0 2% 2%;
+    margin: 0 auto;
     background-color: white;
     border-radius: 15px;
     border: 3px solid;
@@ -74,7 +81,7 @@ h1{
     width: 100%;
 }
 .container{
-    margin: 0 0 5% 2%;
+    margin: 0 auto;
     text-align: center;
     background-color: white;
     max-width: 68%;
@@ -94,6 +101,9 @@ h1{
     position: relative;
 
 }
+.ar:after{
+    content: " Ft";
+}
 .card_img{
     width: 200px;
     border-radius: 15px;
@@ -101,16 +111,15 @@ h1{
     margin-bottom: 5px;
 }
 .text {
-    margin: 15px auto;
+    margin: 0 auto;
     text-align: center;
     padding: 0px;
     align-items: center;
     width: 80%;
     height: 57px;
-    padding: 15px;
 }
 .ar{
-    margin: 15px auto;
+    margin: 10px auto;
 }
 .ar:after{
     content: " Ft";
@@ -169,14 +178,6 @@ h2{
         width: 50%;
     }
 }
-@media (min-width: 0px) and (max-width: 330px) {
-    .card img{
-        width: 70%;
-    }
-    .card{
-        height: 120%;
-    }
-}
 @media (max-width: 700px) {
     .cards {
         width: 100%;
@@ -202,6 +203,16 @@ h2{
         min-width: 95%;
     }
 }
-.ar:after{
-    content: " Ft";
+@media (min-width: 0px) and (max-width: 330px) {
+    .card img{
+        width: 70%;
+    }
+    .cards{
+        height: 120%;
+        padding: -20px;
+    }
+    .text{
+        padding: 15px;
+    }
+
 }

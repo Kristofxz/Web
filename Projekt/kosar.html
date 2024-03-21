@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,22 +7,26 @@
     <title>Kosár</title>
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/kosar.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <nav>
     <ul><img src="kepek/logo.avif" id = "logo">
         <li><a href="index.html">Főoldal</a></li>
-        <li><a href="">Étlap</a></li>
+        <li><a href="etlap.html">Étlap</a></li>
         <li><a href="kosar.html">Kosár</a></li>
         <li><a href="rolunk.html">Rólunk</a></li>
         <li><a href="kapcsolat.html">Kapcsolat</a></li>
         <li><a href="bej.html">Bejelentkezés</a></li>
         <li><a href="reg.html">Regisztráció</a></li>
+        <li><a href="admin.html">Admin</a></li>
     </ul>
 </nav>
 <main>
     <div id="full">
-    <h1>Kosár</h1>
+    <h1 id="cim">Kosár</h1>
     <div id="kosar">
         <table>
             <tr>
@@ -31,9 +35,10 @@
                 <th>Mennyiség</th>
                 <th>Részösszeg</th>
             </tr>
+
             <tr>
                 <td><ul>
-                    <li><a href="#">X</a></li>
+                    <li><a href="#"><i class="fa fa-trash"></i></a></li>
                     <li><p>pizza</p></li>
                 </ul>
                 </td>
@@ -47,7 +52,7 @@
             </tr>
             <tr>
                 <td><ul>
-                    <li><a href="#">X</a></li>
+                    <li><a href="#"><i class="fa fa-trash"></i></a></li>
                     <li><p>pizza</p></li>
                 </ul>
                 </td>
@@ -60,11 +65,48 @@
                 </td>
 
             </tr>
+
         </table>
 
     </div>
+        <div id="vegosszeg">
+            <h3>Részösszeg:</h3>
+            <hr>
+            <table id="pizzak">
+                <tr>
+                    <th><p>pizza neve</p></th>
+                    <td><p class="ar">0</p></td>
 
-        <button type="submit">Rendelés leadása</button>
+                </tr>
+                <tr>
+                    <th><p>pizza neve</p></th>
+                    <td><p class="ar">0</p></td>
+
+                </tr>
+                <tr>
+                    <th id="afa"><p>Áfa:</p></th>
+                    <td class="ar">0</td>
+                </tr>
+            </table>
+            <table id="szallitas">
+                <tr>
+                <th><h3><p>Szállítás:</p></h3></th>
+                <td><p class="ar">0</p></td>
+                </tr>
+            </table>
+            <table id="veg">
+                <tr>
+                    <th><h1>Végösszeg:</h1></th>
+                    <td><h2 class="ar">0</h2></td>
+                </tr>
+
+            </table>
+
+
+
+        </div>
+
+        <button type="submit" class="btn btn-2 btn-sep icon-cart">Rendelés leadása</button>
     </div>
 
 

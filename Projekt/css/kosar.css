@@ -1,36 +1,43 @@
 #full{
     text-align: center;
 }
-h1{
-    font-size: 40px;
+#cim{
+    font-size: 80px;
     font-weight: bold;
-    color: #ff8001;
+    color: white;
+    border: 1px white solid;
+    margin: 15px auto;
+    width: 40%;
+    background-color: black;
+    border-radius: 5px;
 }
 
 #kosar{
     margin: 0 auto;
-    border: black 1px solid;
+    border: white 1px solid;
     border-radius: 10px;
-    background-color: beige;
+    background-color: black;
+    color: white;
     width: 80%;
+    padding: 20px;
 
 }
 #kosar tr{
     width: 100%;
+    border-bottom:white 1px solid;
 
 }
 #kosar th{
     width: 33%;
     text-align: center;
-    border:black 1px solid;
+    border-bottom:white 1px solid;
     border-top: 0;
 
 }
-#kosar td{
+#kosar  td{
     text-align: center;
     vertical-align: center;
     width: 32%;
-    border-bottom: black 1px double;
 
 
 }
@@ -57,4 +64,127 @@ h1{
     margin-right: auto;
 
 }
+
+#vegosszeg{
+    color: white;
+    border: white 1px solid;
+    background-color: black;
+    border-radius: 15px;
+    margin:15px auto;
+    padding: 5px 15px;
+    text-align: left;
+    width: 60%;
+}
+table {
+    width: 100%;
+
+}
+li p{
+    font-size: 15px;
+}
+th{
+    width: 70%;
+}
+td{
+   width: 30% ;
+}
+.ar{
+    text-align: right;
+}
+.ar:after{
+    content:" Ft";
+}
+
+#pizzak{
+    border-bottom: 2px wheat dotted;
+}
+#szallitas{
+    border-bottom: 2px white dashed;
+}
+#afa{
+    float: right;
+    text-align: right;
+}
+.btn {
+    border: none;
+    font-family: 'Lato';
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+    font-family: 'FontAwesome';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* Icon separator */
+.btn-sep {
+    padding: 25px 60px 25px 120px;
+}
+
+.btn-sep:before {
+    background: rgba(0,0,0,0.15);
+}
+
+
+.btn-2 {
+    background: #1f1f1f;
+    color: #fff;
+}
+
+.btn-2:hover {
+    background: #464646;
+}
+
+.btn-2:active {
+    background: #808080;
+    top: 2px;
+}
+
+.btn-2:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+}
+
+
+.icon-cart:before {
+    content: "\f07a";
+}
+
 

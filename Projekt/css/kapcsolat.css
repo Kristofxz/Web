@@ -1,11 +1,13 @@
 #kapcsolat{
+    max-width:55%;
+    min-width:60%;
     margin:0 auto;
     background-color: black;
     border-radius: 15px;
     color: white;
     text-align: center;
     border: white 1px solid;
-    max-width: 50%;
+
 
 
 }
@@ -34,4 +36,27 @@ h1{
 .elemek p{
     padding-bottom: 10px;
 
+}
+@media screen and (max-width: 750px){
+    .tm{
+        width: 30px;
+    }
+    .elemek p{
+        font-size: 10px;
+    }
+    .elemek h2{
+        font-size: 15px;
+
+    }
+    #kapcsolat h1{
+        font-size: 20px;
+    }
+    .icons{
+        width: 15px;
+        margin-left: 5px;
+    }
+    #kapcsolat{
+        max-width: 100%;
+        width: 100%;
+    }
 }

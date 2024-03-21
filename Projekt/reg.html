@@ -1,115 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="kepek/logo.avif">
     <title>Regisztráció</title>
     <link rel="stylesheet" href="css/nav.css">
-    <style>
-        label{
-            font-size: 25px;
-        }
-        h1{
-            text-align: center;
-            font-size: xxx-large;
-            color: #ffffff;
-            text-shadow: 10px 10px black;
-
-        }
-        select{
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-        input[type=checkbox]{
-            padding: 12px 20px;
-            margin: 8px 0;
-        }
-
-        input[type=text] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-
-
-        input[type=submit] {
-            width: 30%;
-            background-color: gold;
-            color: #6c6c6c;
-            font-weight: bold;
-            padding: 12px 20px;
-            margin: 8px 0;
-
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type=submit]:hover {
-            background-color: #ffc330;
-        }
-
-        div {
-            border-radius: 5px;
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-
-
-
-        #elfelejtettJelszo a{
-            color: blue;
-            text-decoration: none;
-        }
-        #elfelejtettJelszo a:hover{
-            color: rgb(183, 82, 224);
-            text-decoration:underline;
-        }
-        #regisztracio{
-            width: 50%;
-            margin: 0 auto;
-            border-radius: 15px;
-            box-shadow:5px 10px black;
-
-        }
-        select {
-            width: calc(100% + 4px);
-            padding: 5px;
-            margin-bottom: 10px;
-        }
-
-
-        nav{
-            margin-bottom: 6%;
-
-        }
-    </style>
+    <link rel="stylesheet" href="css/reg.css">
 </head>
 <body>
 <nav>
     <ul><img src="kepek/logo.avif" id = "logo">
         <li><a href="index.html">Főoldal</a></li>
-        <li><a href="">Étlap</a></li>
+        <li><a href="etlap.html">Étlap</a></li>
         <li><a href="kosar.html">Kosár</a></li>
         <li><a href="rolunk.html">Rólunk</a></li>
         <li><a href="kapcsolat.html">Kapcsolat</a></li>
         <li><a href="bej.html">Bejelentkezés</a></li>
         <li><a href="reg.html">Regisztráció</a></li>
+        <li><a href="admin.html">Admin</a></li>
     </ul>
 </nav>
 
 <main>
-    <h1>Regisztáció</h1>
+    <h1 id="felirat">Regisztáció</h1>
     <div id="regisztracio">
         <form action="">
             <label for="email">Email cím</label>
@@ -149,7 +63,7 @@
                 href="">felhasználási feltételeket</a>
         </label>
             <br>
-            <input  type="submit" value="Bejelentkezés">
+            <input  type="submit" value="Regisztráció">
             <br>
 
         </form>
