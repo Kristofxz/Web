@@ -1,0 +1,60 @@
+#full{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff8001;
+}
+
+#kosar{
+    margin: 0 auto;
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: beige;
+    width: 80%;
+
+}
+#kosar tr{
+    width: 100%;
+
+}
+#kosar th{
+    width: 33%;
+    text-align: center;
+    border:black 1px solid;
+    border-top: 0;
+
+}
+#kosar td{
+    text-align: center;
+    vertical-align: center;
+    width: 32%;
+    border-bottom: black 1px double;
+
+
+}
+
+#kosar a{
+
+    float: left;
+
+
+}
+
+#kosar ul {
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+#kosar ul li {
+    margin-right: auto;
+
+}
+

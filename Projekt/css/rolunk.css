@@ -3,10 +3,13 @@
     background-color: white;
     border-radius: 15px;
     border: 3px solid;
+    width: 80%;
     align-items: center;
     text-align: center;
     max-width: 1800px;
-
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: lightblue;
 
 }
 h2{
@@ -15,21 +18,22 @@ h2{
     color: #ff8001;
     text-decoration: #d36e00 underline;
 }
-#elemek{
+#elemek {
     margin: 0 auto;
     padding: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+
 .leiras{
     width: 370px;
     display: inline-block;
+    margin:0 auto;
 }
-img{
-    width: 250px;
+#elemek img{
+    width: 320px;
     border: black 2px solid;
     border-radius: 10px;
     text-align: left;
@@ -38,9 +42,14 @@ img{
 }
 .cards{
     height: 350px;
-    width: 350px;
-    border: black 1px solid;
-
+    width: 450px;
+    margin:25px 20px;
+    display: block;
+    text-align: center;
 }
+.cards img{
+    margin:10px;
+}
+
 
 
