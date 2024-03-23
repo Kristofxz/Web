@@ -209,10 +209,16 @@ h2{
     }
     .cards{
         height: 120%;
-        padding: -20px;
     }
     .text{
         padding: 15px;
+    }
+    #kosar table{
+        min-width: 90%;
+    }
+    #kosar th{
+        width: 20%;
+        font-size: 1px;
     }
 
 }

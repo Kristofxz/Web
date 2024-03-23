@@ -114,7 +114,7 @@ td{
     cursor: pointer;
     padding: 25px 80px;
     display: inline-block;
-    margin: 15px 30px;
+    margin: 15px 0px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -134,7 +134,7 @@ td{
     transition: all 0.3s;
 }
 
-/* Pseudo elements for icons */
+
 .btn:before {
     font-family: 'FontAwesome';
     speak: none;
@@ -148,7 +148,7 @@ td{
 }
 
 
-/* Icon separator */
+
 .btn-sep {
     padding: 25px 60px 25px 120px;
 }
@@ -161,6 +161,7 @@ td{
 .btn-2 {
     background: #1f1f1f;
     color: #fff;
+    vertical-align: center;
 }
 
 .btn-2:hover {
@@ -181,10 +182,98 @@ td{
     font-size: 140%;
     width: 60px;
 }
-
+input[type=number]{
+    width: 15%;
+}
 
 .icon-cart:before {
     content: "\f07a";
 }
+@media (max-width: 680px) {
+    #full{
+        width: 95%;
+    }
+    #kosar{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #cim{
+        width: 80%;
+    }
+}
 
+@media (max-width: 680px) {
+    #full{
+        width: 95%;
+    }
+    #kosar{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #cim{
+        width: 80%;
+        font-size: 25px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 400px) {
+    tr{
+        width: 5%;
+    }
+    td{
+        width: 5%;
+    }
+    #cim{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #full{
+
+        margin: 0 auto;
+    }
+    table{
+        width:90%;
+        font-size: 10px;
+    }
+    button {
+        padding: 0px 0px;
+        margin: 0px 0px;
+        width: 90%;
+        height: 10%;
+    }
+
+    .btn {
+        font-size: 10px;
+        padding: 0 ;
+    }
+
+        .btn-sep {
+            padding: 10px 0px 17px 120px;
+        }
+        #kosar{
+            padding: 5px 0;
+            width: 90%;
+        }
+        #kosar tr{
+            max-width: 5%;
+        }
+        #kosar table{
+            margin: 0 0;
+            max-width: 5%;
+            font-size: 7px;
+        }
+
+}
+@media screen and (max-width: 500px){
+    .footerElement{
+        font-size: 5px;
+    }
+    footer p{
+        margin: 0;
+    }
+}
 

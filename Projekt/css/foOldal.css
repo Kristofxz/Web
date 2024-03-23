@@ -88,10 +88,11 @@ h1{
 }
 .cards{
     width: 33%;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 30px auto;
     box-sizing: border-box;
     height: 430px;
     position: relative;
+
 
 }
 .card_img{

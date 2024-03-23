@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/reg.css">
 </head>
 <body>
-<nav>
-    <ul><img src="kepek/logo.avif" id = "logo">
+<nav><img src="kepek/logo.avif" id = "logo" alt="">
+    <ul>
         <li><a href="index.html">Főoldal</a></li>
         <li><a href="etlap.html">Étlap</a></li>
         <li><a href="kosar.html">Kosár</a></li>
@@ -19,13 +19,14 @@
         <li><a href="bej.html">Bejelentkezés</a></li>
         <li><a href="reg.html">Regisztráció</a></li>
         <li><a href="admin.html">Admin</a></li>
+        <li><a href="profil.html">Profil</a></li>
     </ul>
 </nav>
 
 <main>
     <h1 id="felirat">Regisztáció</h1>
     <div id="regisztracio">
-        <form action="">
+        <form action="#">
             <label for="email">Email cím</label>
             <input type="text" id="email" name="email" placeholder="Írja be az email címét..." required>
 
@@ -44,8 +45,8 @@
             <label for="nem">Nem</label>
             <br>
 
-            <select>
-                <option id="nem" value="">Válassza ki a nemét!</option>
+            <select id="nem">
+                <option value="">Válassza ki a nemét!</option>
                 <option value="ferfi">Férfi</option>
                 <option value="no">Nő</option>
             </select>
