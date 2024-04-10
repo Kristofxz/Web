@@ -1,0 +1,135 @@
+#full{
+    text-align: center;
+    margin: 0 auto;
+
+}
+#cim{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    border: 1px white solid;
+    margin: 15px auto;
+    width: 40%;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#kosar{
+    margin: 0 auto;
+    border: white 1px solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 80%;
+    padding: 20px;
+
+}
+#kosar tr{
+    width: 100%;
+    border-bottom:white 1px solid;
+
+}
+#kosar th{
+    width: 33%;
+    text-align: center;
+    border-bottom:white 1px solid;
+    border-top: 0;
+
+}
+#kosar  td{
+    text-align: center;
+    vertical-align: center;
+    width: 32%;
+
+
+}
+
+#kosar a{
+
+    float: left;
+}
+
+#kosar ul {
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#kosar ul li {
+    margin-right: auto;
+
+}
+@media (max-width: 680px) {
+    #full{
+        width: 95%;
+    }
+    #kosar{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #cim{
+        width: 80%;
+        font-size: 25px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 400px) {
+    tr{
+        width: 5%;
+    }
+    td{
+    width: 5%;
+    }
+    #cim{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #full{
+
+        margin: 0 auto;
+    }
+    table{
+        width:90%;
+        font-size: 10px;
+    }
+
+}
+#adatok{
+    max-width:55%;
+    min-width:60%;
+    margin:0 auto 30px auto;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    border: white 1px solid;
+
+}
+#adatok2{
+    width: 90%;
+    margin: 10px auto 10px auto;
+}
+
+td{
+
+    width: 25%;
+    height: 45px ;
+}
+th{
+    width: 50%;
+
+    height: 45px ;
+
+}
+@media (max-width: 400px) {
+    #full{
+        margin: 2px;
+    }
+}
